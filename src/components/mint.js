@@ -571,9 +571,10 @@ const Mint = (props) => {
       <div className="footer">
         <a
           style={{ color: "#FFF" }}
+          target="_blank"
           href="https://www.linkedin.com/in/mark-james-43082420a/"
         >
-          <LinkedInIcon sx={{ cursor: "pointer" }} />Makr James
+          <LinkedInIcon sx={{ cursor: "pointer" }} />
         </a>
       </div>
     </React.Fragment>
