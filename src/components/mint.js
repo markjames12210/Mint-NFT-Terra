@@ -568,14 +568,14 @@ const Mint = (props) => {
         </Typography>
         <NotificationContainer />
       </Container>
-      <footer>
+      <div className="footer">
         <a
           style={{ color: "#FFF" }}
           href="https://www.linkedin.com/in/mark-james-43082420a/"
         >
-          <LinkedInIcon sx={{ cursor: "pointer" }} />
+          <LinkedInIcon sx={{ cursor: "pointer" }} />Makr James
         </a>
-      </footer>
+      </div>
     </React.Fragment>
   );
 };
