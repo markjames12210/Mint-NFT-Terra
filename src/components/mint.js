@@ -55,6 +55,7 @@ import Avatar from "@mui/material/Avatar";
 import Logo from "../assets/logo.png";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Mint = (props) => {
   const [values, setValues] = React.useState({
     password: "",
@@ -567,6 +568,14 @@ const Mint = (props) => {
         </Typography>
         <NotificationContainer />
       </Container>
+      <footer>
+        <a
+          style={{ color: "#FFF" }}
+          href="https://www.linkedin.com/in/mark-james-43082420a/"
+        >
+          <LinkedInIcon sx={{ cursor: "pointer" }} />
+        </a>
+      </footer>
     </React.Fragment>
   );
 };
