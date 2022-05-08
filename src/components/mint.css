@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+}
+p.MuiTypography-root.MuiTypography-body1.minfontspan {
+  font-size: "27px";
+}
+
+#root {
+  width: 100% !important;
+}
+.box {
+  background: url("../assets/background.png") !important;
+  padding-top: 50px;
+  width: 100%;
+}
